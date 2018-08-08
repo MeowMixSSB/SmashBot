@@ -1,0 +1,1 @@
+[null,{"name":"NewEvent","temp":"reaction","event-type":"28","actions":[{"info":"1","find":"reaction","storage":"1","varName":"role","name":"Find Role"},{"member":"2","varName2":"","role":"3","varName":"role","name":"Add Member Role"}]},{"name":"msg","temp":"","event-type":"2","actions":[{"storage":"1","varName":"msg","name":"Delete Message"}]}]
