@@ -6,6 +6,8 @@
 
 const Files = require(require('path').join(__dirname, 'js', 'Main.js')).Files;
 
+.listen(process.env.PORT || 5000)
+
 if(!process.send) {
 
 Files.initStandalone();
