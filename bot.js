@@ -6,6 +6,11 @@
 
 const Files = require(require('path').join(__dirname, 'js', 'Main.js')).Files;
 
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
+});
+
 if(!process.send) {
 
 Files.initStandalone();
